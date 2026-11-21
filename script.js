@@ -1,4 +1,4 @@
-const emailTujuan = "alifptrp458@gmal.com";
+const emailTujuan = "alifptrp458@gmail.com";
 
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
