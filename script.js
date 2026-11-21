@@ -1,5 +1,4 @@
-// Ganti alamat berikut dengan email aktif milik Anda.
-const emailTujuan = "ganti-email-anda@example.com";
+const emailTujuan = "alifptrp458@gmal.com";
 
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
