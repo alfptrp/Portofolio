@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Alif Putra Pratama, Front-End Developer.">
+  <title>Alif Putra Pratama | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <header class="header">
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="hero section" id="home">
+      <div class="wrap hero-content">
+        <div class="hero-text reveal">
+          <p class="eyebrow"><span class="dot"></span> SELAMAT DATANG DI PORTOFOLIO SAYA</p>
+          <h1>Halo, saya<br><span>Alif Putra Pratama</span></h1>
+          <h2 class="role">Front-End Developer</h2>
+          <p class="intro">
+            Saya tertarik membangun website yang modern, responsif, dan mudah digunakan.
+            Saya senang mengubah ide menjadi tampilan digital melalui HTML, CSS, dan JavaScript.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Lihat Proyek <span>↗</span></a>
+            <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+          </div>
+          <div class="hero-note">Terus belajar · Terus berkembang · Terus berkarya</div>
+        </div>
+
+        <div class="hero-image reveal">
+          <div class="image-bg"></div>
+          <div class="photo-wrap hero-photo">
+            <img src="images/alif.jpeg" alt="Foto Alif Putra Pratama" class="photo">
+            <div class="photo-fallback">AL</div>
+          </div>
+          <div class="image-label"><span class="label-icon">&lt;/&gt;</span><span>Front-End<br><b>Developer</b></span></div>
+          <span class="shape shape-one"></span>
+          <span class="shape shape-two"></span>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Gulir ke bagian About">SCROLL <span>↓</span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">KENALI SAYA</p>
+          <h2>Tentang <span>Saya</span></h2>
+          <p>Berkenalan lebih dekat dengan saya dan ketertarikan saya di dunia web.</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image reveal">
+            <div class="photo-wrap about-photo">
+              <img src="images/saya.jpeg" alt="Foto Alif Putra Pratama" class="photo">
+              <div class="photo-fallback">AL</div>
+            </div>
+            <div class="about-image-caption">ALIF PUTRA PRATAMA</div>
+          </div>
+          <div class="about-text reveal">
+            <h3>Mahasiswa Teknik Informatika dengan minat di bidang Front-End Development.</h3>
+            <p>
+              Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan pada pengembangan website,
+              khususnya bagian Front-End. Saya menikmati proses merancang struktur halaman, mengatur tampilan,
+              dan menambahkan interaksi agar website terasa nyaman digunakan.
+            </p>
+            <p>
+              Saat ini saya terus mengembangkan kemampuan menggunakan HTML, CSS, dan JavaScript serta
+              mempelajari prinsip desain responsif dan pengalaman pengguna. Bagi saya, setiap proyek adalah
+              kesempatan untuk mencoba hal baru dan meningkatkan kemampuan.
+            </p>
+            <a href="#contact" class="text-link">Mari terhubung <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">YANG SAYA PELAJARI</p>
+          <h2>Skills &amp; <span>Tools</span></h2>
+          <p>Teknologi dan tools yang sedang saya gunakan untuk mengembangkan kemampuan.</p>
+        </div>
+
+        <div class="skill-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon orange">5</div>
+            <h3>HTML</h3>
+            <p>Menyusun struktur dan konten halaman website.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon blue">#</div>
+            <h3>CSS</h3>
+            <p>Mengatur warna, layout, animasi, dan tampilan responsif.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon yellow">JS</div>
+            <h3>JavaScript</h3>
+            <p>Menambahkan interaksi dan fungsi pada halaman website.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon dark">⌘</div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Mengenal pengelolaan versi dan penyimpanan proyek kode.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon purple">UI</div>
+            <h3>UI Design</h3>
+            <p>Mempelajari penyusunan antarmuka yang rapi dan mudah dipahami.</p>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon green">R</div>
+            <h3>Responsive Design</h3>
+            <p>Membuat tampilan website menyesuaikan berbagai ukuran layar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">KARYA SAYA</p>
+          <h2>Proyek <span>Pilihan</span></h2>
+          <p>Beberapa contoh kategori proyek yang dapat ditampilkan dalam portofolio ini.</p>
+        </div>
+
+        <!-- Ganti judul, deskripsi, dan tautan kartu berikut dengan proyek milik Anda. -->
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-preview preview-one"><span class="preview-tag">01 / WEB DESIGN</span><div class="mock-window"><i></i><i></i><i></i><b>Creative<br>Landing Page.</b><small>Simple · Clean · Responsive</small></div></div>
+            <div class="project-info"><p class="project-type">HTML · CSS</p><h3>Landing Page</h3><p>Contoh halaman promosi dengan tata letak yang bersih dan responsif.</p></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-preview preview-two"><span class="preview-tag">02 / PORTFOLIO</span><div class="mock-profile"><div class="mock-avatar">AL</div><b>Personal<br>Portfolio</b><small>About · Skills · Works</small></div></div>
+            <div class="project-info"><p class="project-type">HTML · CSS · JavaScript</p><h3>Website Portofolio</h3><p>Contoh website pribadi untuk menampilkan profil, kemampuan, dan hasil karya.</p></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-preview preview-three"><span class="preview-tag">03 / INTERACTIVE</span><div class="mock-app"><div class="app-bar"></div><div class="app-line"></div><div class="app-line short"></div><div class="app-boxes"><i></i><i></i><i></i></div></div></div>
+            <div class="project-info"><p class="project-type">JavaScript · CSS</p><h3>Website Interaktif</h3><p>Contoh antarmuka dengan elemen interaktif untuk meningkatkan pengalaman pengguna.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact-wrap">
+        <div class="contact-text reveal">
+          <p class="eyebrow">PUNYA IDE ATAU PROYEK?</p>
+          <h2>Mari buat sesuatu<br><span>yang menarik.</span></h2>
+          <p>Terima kasih telah mengunjungi portofolio saya. Silakan hubungi saya untuk berdiskusi, berbagi ide, atau berkolaborasi dalam sebuah proyek.</p>
+          <a class="contact-email" href="mailto:alifptrp458@gmail.com">alifptrp458@gmail.com <span>↗</span></a>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+          <label for="message">Pesan</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tuliskan pesan Anda..." required></textarea>
+          <button class="btn btn-primary submit-btn" type="submit">Kirim Pesan <span>↗</span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-content">
+      <a class="logo" href="#home">ALIF</a>
+      <p>© <span id="year"></span> Alif Putra Pratama. Dibuat dengan semangat belajar.</p>
+      <a href="#home" class="back-top">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
