@@ -4,7 +4,6 @@ const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
 const navLinks = document.querySelectorAll(".nav-link");
 
-// Menu navigasi untuk tampilan HP.
 menuBtn.addEventListener("click", () => {
   const isOpen = navMenu.classList.toggle("open");
   menuBtn.setAttribute("aria-expanded", String(isOpen));
