@@ -1,9 +1,11 @@
+// Ganti alamat berikut dengan email aktif milik Anda.
 const emailTujuan = "alifptrp458@gmail.com";
 
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
 const navLinks = document.querySelectorAll(".nav-link");
 
+// Menu navigasi untuk tampilan HP.
 menuBtn.addEventListener("click", () => {
   const isOpen = navMenu.classList.toggle("open");
   menuBtn.setAttribute("aria-expanded", String(isOpen));
