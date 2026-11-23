@@ -1,5 +1,5 @@
 // Ganti alamat berikut dengan email aktif milik Anda.
-const emailTujuan = "alifptrp458@gmail.com";
+const emailTujuan = "alifaliff1212@gmail.com";
 
 const menuBtn = document.getElementById("menuBtn");
 const navMenu = document.getElementById("navMenu");
@@ -58,7 +58,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("contactForm").addEventListener("submit", (event) => {
   event.preventDefault();
 
-  if (emailTujuan === "alifptrp458@gmail.com") {
+  if (emailTujuan === "alifalifaliff1212@gmail.com") {
     return;
   }
 
